@@ -1,0 +1,26 @@
+{
+  "fitbit": {
+    "appUUID": "5eb9b5c0-ae4f-41f7-ae8a-bd991980a169",
+    "appType": "clockface",
+    "appDisplayName": "Graphs",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity"
+    ],
+    "buildTargets": [
+      "meson",
+      "higgs",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Graphs"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}
